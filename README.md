@@ -10,7 +10,9 @@ PURPOSE OF PROJECT: Teach people about the effects of climate change
  
 VERSION or DATE: Fall 2018
 
-HOW TO START THIS PROJECT: java -cp ./Acme.jar:./objectdraw.jar:. TrashGame
+HOW TO START THIS PROJECT: 
+  javac -cp ./Acme.jar:./objectdraw.jar:. \*.java
+  java -cp ./Acme.jar:./objectdraw.jar:. TrashGame
 
 AUTHORS: Jeromey Klein; I had some help from the Acme and objectdraw libraries
 
